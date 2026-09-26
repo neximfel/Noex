@@ -12,17 +12,19 @@ html{
     padding: 0;
     box-sizing: border-box;
     background: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 button{
     border-style: none;
     cursor: pointer;
-    transition: all 0.25s ease;
+    transition: all 0.3s ease;
     background-color: transparent;
 }
 li, a{
     text-decoration: none;
     list-style: none;
-    transition: all 0.25s ease;
+    transition: all 0.3s ease;
 }
 input{
     outline: none;
@@ -43,49 +45,146 @@ body{
     margin: 0 auto;
     max-width: 1920px;
     width: 100%;
-    height: 762px;
+    min-height: 762px;
     background-image: url(../../../assets/Page1/Section1/bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-block-start: 130px;
     &_inside{
+        margin-inline: 20px;
         max-width: 1200px;
         width: 100%;
-        height: 564px;
+        min-height: 564px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         &_top{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
             &_first{
+                max-width: 780px;
+                display: flex;
+                flex-direction: column;
+                gap: 27px;
                 h1{
                     font-size: 3rem;
                     color: #F2F2F2;
                     line-height: 1.2;
-                    font-weight: bold;
                     font-family: "Manrope", sans-serif;
                     font-style: normal;
                     font-weight: bold;
                 }
                 p{
                     font-size: 1.5rem;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-weight: bold;
                     line-height: 1.4;
                     color: #BBBCBC;
                 }
             }
             &_second{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
                 &_buttons{
+                    display: flex;
+                    gap: 10px;
                     a{
-
+                        width: 210px;
+                        height: 46px;
+                        color: #0A090D;
+                        font-size: 0.875rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
                     }
                     .button__look{
-
+                        background-color: #A7C186;
                     }
                     .button__our_projects{
-
+                        background-color: #DFD1A7;
                     }
                 }
                 p{
-
+                    max-width: 360px;
+                    width: 100%;
+                    line-height: 1.4;
+                    font-size: 1.125rem;
+                    color: #DFD1A7;
                 }
+            }
+        }
+        &_bot{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            &_left{
+                align-items: center;
+                height: 18px;
+                max-width: 220px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                user-select: none;
+                button{
+                    height: 18px;
+                    width: 36px;
+                    div{
+                        width: 100%;
+                        height: 3px;
+                        border-radius: 100px;
+                        background-color: #393939;
+                    }
+                }
+                .active{
+                    div{
+                        background-color: #DFD1A7;
+                        transition: all ease 0.5s;
+                    }
+                }
+            }
+            &_right{
+                max-width: 360px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                &_arrows{
+                    display: flex;
+                    align-items: center;
+                    gap: 60px;
+                    button{
+                        width: 70px;
+                        height: 28px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img{
+                            transition: all ease 0.5s;
+                        }
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                } 
+                span{
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    p{
+                        font-size: 1.5rem;
+                        color: #E5E5E5;
+                        line-height: 1.5;
+                        font-family: "Manrope", sans-serif;
+                    }
+                }               
             }
         }
     }

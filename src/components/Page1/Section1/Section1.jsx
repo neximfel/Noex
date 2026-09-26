@@ -42,7 +42,7 @@ export default function Section1(){
                                     className={activeDot === meow ? "active" : ""}
                                     onClick={() => setActiveDot(meow)}
                                 >
-                                    <span>{/* залить цветом */}</span>
+                                    <div></div>
                                 </button>
                             ))}
                         </div>
@@ -51,7 +51,7 @@ export default function Section1(){
                                 <button onClick={goPrev}><img src={Photo.ArrowToLeft} alt="" /></button>
                                 <button onClick={goNext}><img src={Photo.ArrowToRight} alt="" /></button>
                             </div>
-                            <span> <p>01</p> <p>-</p> <p>05</p> </span>
+                            <span> <p>0{activeDot + 1}</p> <p>-</p> <p>05</p> </span>
                         </div>
                     </div>
                 </div>
