@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #0A090D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.section1{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    height: 762px;
+    background-image: url(../../../assets/Page1/Section1/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    &_inside{
+        max-width: 1200px;
+        width: 100%;
+        height: 564px;
+        &_top{
+            &_first{
+                h1{
+                    font-size: 3rem;
+                    color: #F2F2F2;
+                    line-height: 1.2;
+                    font-weight: bold;
+                    font-family: "Manrope", sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                }
+                p{
+                    font-size: 1.5rem;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: bold;
+                    line-height: 1.4;
+                    color: #BBBCBC;
+                }
+            }
+            &_second{
+                &_buttons{
+                    a{
+
+                    }
+                    .button__look{
+
+                    }
+                    .button__our_projects{
+
+                    }
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}
