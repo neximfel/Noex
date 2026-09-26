@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #0A090D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+
+.section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        &_top{
+            border-bottom: 2px solid #3B3A3D;
+            min-height: 270px;
+            display: flex;
+            h1{
+                width: 50%;
+                line-height: 1.2;
+                font-size: 2.25rem;
+                color: #F2F2F2;
+                font-family: "Manrope", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+            }
+            span{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+                align-items: center;
+                p{
+                    font-size: 1.125rem;
+                    color: #848486;
+                    width: 95px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                h1{
+                    font-size: 6rem;
+                    width: 64px;
+                }
+            }
+        }
+        &_bottom{
+            display: flex;
+            justify-content: space-between;
+            &_left{
+                max-width: 290px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 120px;
+                &_places{
+                    user-select: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    button{
+                        width: fit-content;
+                        line-height: 1.4;
+                        font-size: 1.5rem;
+                        color: #848486;
+                        height: 34px;
+                        padding-left: 28px;
+                        text-align: start;
+                        &:hover{         
+                            transform: translateX(6px);
+                        }
+                        &.marked{
+                            color: #F2F2F2;
+                            border-left: 2px solid #CDA177;  
+                            transform: scale(1.05);    
+                        }
+                    }
+                }
+                &_arrows{
+                    display: flex;
+                    gap: 45px;
+                    padding-left: 10px;
+                    button{
+                        width: 90px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    #right_arrow:hover{
+                        transform: translateX(6px);
+                    }
+                    #left_arrow:hover{
+                        transform: translateX(-6px);
+                    }
+                }
+            }
+            &_right{
+                display: flex;
+                gap: 60px;
+                article{
+                    max-width: 360px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    img{
+                        cursor: pointer;
+                        user-select: none;
+                    }
+                    h2{
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-style: normal;
+                        font-weight: bold;
+                        line-height: 1.4;
+                        font-size: 1.5rem;
+                        color: #F2F2F2;
+                    }
+                    p{
+                        color: #848486;
+                        font-size: 1.125rem;
+                        height: 40px;
+                        line-height: 1.6;
+                        border-bottom: 1px solid #3B3A3D;
+                    }
+                    .art_text_p_hidden{
+                        height: 0px;
+                        opacity: 0;
+                        z-index: -100;
+                        user-select: none;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        transition: all ease 0.2s;
+                        line-height: 1.4;
+                        border: none;
+                        &.opened{
+                            height: auto;
+                            opacity: 1;
+                            z-index: auto;
+                            user-select: text;
+                        }
+                    }
+                    button{
+                        z-index: 100;
+                        width: fit-content;
+                        color: #DFD1A7;
+                        font-size: 0.875rem;
+                        text-decoration: underline;
+                        transition: all ease 0.3s;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

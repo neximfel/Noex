@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #0A090D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+
+.section5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        h1{
+            line-height: 1.2;
+            font-size: 2.25rem;
+            color: #F2F2F2;
+            font-family: "Manrope", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+        }
+        &_bottom{
+            display: flex;
+            &_left{
+                background-image: url(../../../assets/Page1/Section5/line.svg);
+                background-repeat: no-repeat;
+                border-right: 1px solid #3B3A3D;
+                max-width: 500px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 80px;
+                user-select: none;
+                button{
+                    width: fit-content;
+                    height: 65px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    &:hover{
+                        p{
+                            transform: translateX(10px);
+                        }
+                    }
+                    div{
+                        background-color: #0A090D;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 54px;
+                        height: 54px;
+                        border-radius: 100px;
+                        border: 1px solid #848486;
+                        transition: all ease 0.3s;
+                        h3{
+                            color: #848486;
+                            line-height: 1.4;
+                            font-size: 1.5rem;
+                            font-family: "Manrope", sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                        transition: all ease 0.3s;
+                        }
+                    }
+                    p{
+                        color: #848486;
+                        line-height: 1.4;
+                        font-size: 1.5rem;
+                        font-family: "Manrope", sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        transition: all ease 0.3s;
+                    }
+                    &.marked{
+                        gap: 0px;
+                        div{
+                            border: 1px solid #DFD1A7;
+                            h3{
+                                color: #DFD1A7;
+                            }
+                        }
+                        p{
+                            margin-left: 36px;
+                            transform: scale(1.1);
+                            color: #DFD1A7;
+                        }
+                    }
+                }
+            }
+            &_right{
+                margin-inline: auto;
+                max-width: 500px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &_text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    h2{
+                        line-height: 1.4;
+                        color: #E5E5E5;
+                        font-size: 1.5rem;
+                        font-family: "Manrope", sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                    }
+                    p{
+                        color: #E5E5E5;
+                        font-size: 1.125rem;
+                        font-weight: normal;
+                        line-height: 1.6;
+                    }
+                }
+                &_arrows{
+                    user-select: none;
+                    display: flex;
+                    gap: 45px;
+                    padding-left: 10px;
+                    button{
+                        width: 90px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    #right_arrow:hover{
+                        transform: translateX(6px);
+                    }
+                    #left_arrow:hover{
+                        transform: translateX(-6px);
+                    }
+                }
+            }
+        }
+    }   
+}

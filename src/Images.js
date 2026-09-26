@@ -5,6 +5,12 @@ import ArrowToRight from "./assets/Page1/Section1/arrow_to_right.svg"
 import Stone from "./assets/Page1/Section3/stone.svg"
 import Camera from "./assets/Page1/Section3/camera.svg"
 import Tree from "./assets/Page1/Section3/tree.svg"
+import Place1 from "./assets/Page1/Section4/Place1.png"
+import Place2 from "./assets/Page1/Section4/Place2.png"
+import Place3 from "./assets/Page1/Section4/Place3.png"
+import Place4 from "./assets/Page1/Section4/Place4.png"
+import Place5 from "./assets/Page1/Section4/Place5.png"
+import Place6 from "./assets/Page1/Section4/Place6.png"
 
 export const Photo = {
     Logo:Logo,
@@ -14,4 +20,10 @@ export const Photo = {
     Stone:Stone,
     Camera:Camera,
     Tree:Tree,
+    Place1:Place1,
+    Place2:Place2,
+    Place3:Place3,
+    Place4:Place4,
+    Place5:Place5,
+    Place6:Place6,
 }
