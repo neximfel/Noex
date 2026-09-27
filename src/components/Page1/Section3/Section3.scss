@@ -47,6 +47,7 @@ body{
     display: flex;
     justify-content: center;
     &_inside{
+        margin-inline: 20px;
         max-width: 1200px;
         width: 100%;
         height: auto;

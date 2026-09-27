@@ -11,6 +11,14 @@ import Place3 from "./assets/Page1/Section4/Place3.png"
 import Place4 from "./assets/Page1/Section4/Place4.png"
 import Place5 from "./assets/Page1/Section4/Place5.png"
 import Place6 from "./assets/Page1/Section4/Place6.png"
+import Minus from "./assets/Page1/Section8/minus90.svg"
+import Plus from "./assets/Page1/Section8/plus.svg"
+import DownloadImage from "./assets/Page1/Section9/download.svg"
+import DeleteImage from "./assets/Page1/Section9/delete.svg"
+import LogoFooter from "./assets/Footer/logo.svg"
+import FacebookLogo from "./assets/Footer/facebook.svg"
+import VKLogo from "./assets/Footer/vk.svg"
+import InstagramLogo from "./assets/Footer/inst.svg"
 
 export const Photo = {
     Logo:Logo,
@@ -26,4 +34,12 @@ export const Photo = {
     Place4:Place4,
     Place5:Place5,
     Place6:Place6,
+    Minus:Minus,
+    Plus:Plus,
+    DownloadImage:DownloadImage,
+    DeleteImage:DeleteImage,
+    LogoFooter:LogoFooter,
+    FacebookLogo:FacebookLogo,
+    VKLogo:VKLogo,
+    InstagramLogo:InstagramLogo,
 }

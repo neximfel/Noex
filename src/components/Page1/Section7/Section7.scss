@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #0A090D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+
+.section7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &_inside{
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+        margin-inline: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        h1{
+            max-width: 510px;
+            line-height: 1.2;
+            font-family: "Manrope", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.25rem;
+            color: #F2F2F2;
+        }
+        &_bottom{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            .p_question{
+                max-width: 330px;
+                width: 100%;
+                line-height: 1.4;
+                font-size: 1.125rem;
+                color: #DFD1A7;
+            }
+            &_points{
+                max-width: 780px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                div{
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    border-bottom: 1px solid #3B3A3D;
+                    padding-bottom: 30px;
+                    h2{
+                        color: #E5E5E5;
+                        line-height: 1.4;
+                        font-size: 1.5;
+                        font-weight: lighter;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    p{
+                        color: #E5E5E5;
+                        line-height: 1.4;
+                        font-size: 1rem;
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}
