@@ -19,15 +19,15 @@ export default function Footer(){
                             <div>
                                 <Link to="/projects">Проекты</Link>
                                 <Link to="/about">О нас</Link>
-                                <Link to="/">Услуги</Link>
+                                <Link to="/empty">Услуги</Link>
                             </div>
                             <div id="footer_links_central">
-                                <Link to="/">Цены</Link>
-                                <Link to="/">Статьи</Link>
-                                <Link to="/">Вакансии</Link>
+                                <Link to="/empty">Цены</Link>
+                                <Link to="/empty">Статьи</Link>
+                                <Link to="/empty">Вакансии</Link>
                             </div>
                             <div>
-                                <Link to="/">Контакты</Link>
+                                <Link to="/empty">Контакты</Link>
                             </div>
                         </div>
                         <div className="footer_inside_top_third">

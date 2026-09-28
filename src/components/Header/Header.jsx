@@ -11,11 +11,11 @@ export default function Header(){
                     <ul>
                         <Link to="/projects" >Проекты</Link>
                         <Link to="/about">О нас</Link>
-                        <Link to="">Услуги</Link>
-                        <Link to="">Цены</Link>
-                        <Link to="">Статьи</Link>
-                        <Link to="">Вакансии</Link>
-                        <Link to="">Контакты</Link>
+                        <Link to="/empty">Услуги</Link>
+                        <Link to="/empty">Цены</Link>
+                        <Link to="/empty">Статьи</Link>
+                        <Link to="/empty">Вакансии</Link>
+                        <Link to="/empty">Контакты</Link>
                     </ul>
                     <div>
                         <span></span>

@@ -25,11 +25,11 @@ export default function Section5(){
 
     return(
         <>
-            <section className="section5">
-                <div className="section5_inside">
+            <section className="page1_section5">
+                <div className="page1_section5_inside">
                     <h1>КАК МЫ РАБОТАЕМ</h1>
-                    <div className="section5_inside_bottom">
-                        <div className="section5_inside_bottom_left">
+                    <div className="page1_section5_inside_bottom">
+                        <div className="page1_section5_inside_bottom_left">
                             {steps.map((meow, index) => (
                                 <button
                                     key={index}
@@ -41,12 +41,12 @@ export default function Section5(){
                                 </button>
                             ))}
                         </div>
-                        <div className="section5_inside_bottom_right">
-                            <div className="section5_inside_bottom_right_text">
+                        <div className="page1_section5_inside_bottom_right">
+                            <div className="page1_section5_inside_bottom_right_text">
                                 <h2>{currentStep.title}</h2>
                                 <p>{currentStep.descr}</p>
                             </div>
-                            <div className="section5_inside_bottom_right_arrows">
+                            <div className="page1_section5_inside_bottom_right_arrows">
                                 <button onClick={goPrev} id="left_arrow"><img src={Photo.ArrowToLeft} alt="" /></button>
                                 <button onClick={goNext} id="right_arrow"><img src={Photo.ArrowToRight} alt="" /></button>
                             </div>

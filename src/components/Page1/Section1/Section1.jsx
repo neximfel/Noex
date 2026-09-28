@@ -19,23 +19,23 @@ export default function Section1(){
     
     return(
         <>
-            <section className="section1">
-                <div className="section1_inside">
-                    <div className="section1_inside_top">
-                        <div className="section1_inside_top_first">
+            <section className="page1_section1">
+                <div className="page1_section1_inside">
+                    <div className="page1_section1_inside_top">
+                        <div className="page1_section1_inside_top_first">
                             <h1>ИНЖЕНЕРНЫЕ ИЗЫСКАНИЯ В СТРОИТЕЛЬСТВЕ</h1>
                             <p>С равным успехом  мы работаем на участках строительства технически сложных и ответсвенных объектов, и типовых сооружений. Все работы проходят государственную экспертизу.</p>
                         </div>
-                        <div className="section1_inside_top_second">
-                            <div className="section1_inside_top_second_buttons">
-                                <Link to="/" className="button__look">ПОСМОТРЕТЬ УСЛУГИ</Link>
+                        <div className="page1_section1_inside_top_second">
+                            <div className="page1_section1_inside_top_second_buttons">
+                                <Link to="/empty" className="button__look">ПОСМОТРЕТЬ УСЛУГИ</Link>
                                 <Link to="/projects" className="button__our_projects">НАШИ ПРОЕКТЫ</Link>
                             </div>
                             <p>Выполняем инженерные изыскания в строительстве с 1988 года</p>
                         </div>
                     </div>
-                    <div className="section1_inside_bot">
-                        <div className="section1_inside_bot_left">
+                    <div className="page1_section1_inside_bot">
+                        <div className="page1_section1_inside_bot_left">
                             {Array.from({ length:totalSlides }).map((_,meow) => (
                                 <button
                                     key={meow}
@@ -46,8 +46,8 @@ export default function Section1(){
                                 </button>
                             ))}
                         </div>
-                        <div className="section1_inside_bot_right">
-                            <div className="section1_inside_bot_right_arrows">
+                        <div className="page1_section1_inside_bot_right">
+                            <div className="page1_section1_inside_bot_right_arrows">
                                 <button onClick={goPrev}><img src={Photo.ArrowToLeft} alt="" /></button>
                                 <button onClick={goNext}><img src={Photo.ArrowToRight} alt="" /></button>
                             </div>

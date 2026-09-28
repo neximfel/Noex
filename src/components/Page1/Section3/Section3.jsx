@@ -17,12 +17,12 @@ export default function Section3(){
 
     return(
         <>
-            <section className="section3">
-                <div className="section3_inside">
+            <section className="page1_section3">
+                <div className="page1_section3_inside">
                     <h1>ОСНОВНЫЕ ВИДЫ ИНЖЕНЕРНЫХ ИЗЫСКАНИЙ</h1>
-                    <div className="section3_inside_bottom">
+                    <div className="page1_section3_inside_bottom">
                         <p className="p_question">Главные направления деятельности</p>
-                        <div className="section3_inside_bottom_variants">
+                        <div className="page1_section3_inside_bottom_variants">
                             {variants.map((meow) => (
                                 <article key={meow.title}>
                                     <img src={meow.image} alt="" />

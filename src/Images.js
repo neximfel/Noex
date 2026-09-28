@@ -23,6 +23,22 @@ import Image1 from "./assets/Page3/Section2/image1.png"
 import Image2 from "./assets/Page3/Section2/image2.png"
 import Certificate from "./assets/Page3/Section6/certif.png"
 import ArrowDiagonal from "./assets/Page3/Section6/arrow_diagonal.svg"
+import DefPlace1 from "./assets/Page2/Page2Default/Section2/place1.png"
+import DefPlace2 from "./assets/Page2/Page2Default/Section2/place2.png"
+import DefPlace3 from "./assets/Page2/Page2Default/Section2/place3.png"
+import DefPlace4 from "./assets/Page2/Page2Default/Section2/place4.png"
+import DefPlace5 from "./assets/Page2/Page2Default/Section2/place5.png"
+import DefPlace6 from "./assets/Page2/Page2Default/Section2/place6.png"
+import OpePlace1 from "./assets/Page2/Page2Opened/Section2/place1.png"
+import OpePlace2 from "./assets/Page2/Page2Opened/Section2/place2.png"
+import OpePlace3 from "./assets/Page2/Page2Opened/Section2/place3.png"
+import OpePlace4 from "./assets/Page2/Page2Opened/Section2/place4.png"
+import OpePlace5 from "./assets/Page2/Page2Opened/Section2/place5.png"
+import OpePlace6 from "./assets/Page2/Page2Opened/Section2/place6.png"
+import OpePlace7 from "./assets/Page2/Page2Opened/Section2/place7.png"
+import OpePlace8 from "./assets/Page2/Page2Opened/Section2/place8.png"
+import OpePlace9 from "./assets/Page2/Page2Opened/Section2/place9.png"
+import OpePlace10 from "./assets/Page2/Page2Opened/Section2/place10.png"
 
 export const Photo = {
     Logo:Logo,
@@ -50,4 +66,20 @@ export const Photo = {
     Image2:Image2,
     Certificate:Certificate,
     ArrowDiagonal:ArrowDiagonal,
+    DefPlace1:DefPlace1,
+    DefPlace2:DefPlace2,
+    DefPlace3:DefPlace3,
+    DefPlace4:DefPlace4,
+    DefPlace5:DefPlace5,
+    DefPlace6:DefPlace6,
+    OpePlace1:OpePlace1,
+    OpePlace2:OpePlace2,
+    OpePlace3:OpePlace3,
+    OpePlace4:OpePlace4,
+    OpePlace5:OpePlace5,
+    OpePlace6:OpePlace6,
+    OpePlace7:OpePlace7,
+    OpePlace8:OpePlace8,
+    OpePlace9:OpePlace9,
+    OpePlace10:OpePlace10,
 }

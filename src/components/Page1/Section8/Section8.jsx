@@ -21,12 +21,12 @@ export default function Section8(){
 
     return(
         <>
-            <section className="section7">
-                <div className="section7_inside">
+            <section className="page1_section8">
+                <div className="page1_section8_inside">
                     <h1>ВЫСОКИЙ УРОВЕНЬ И ПРОФЕССИОНАЛЬНАЯ КОМАНДА</h1>
-                    <div className="section7_inside_bottom">
+                    <div className="page1_section8_inside_bottom">
                         <p className="p_question">Подтверждение наших компетенций в специализации</p>
-                        <div className="section7_inside_bottom_questions">
+                        <div className="page1_section8_inside_bottom_questions">
                             {questions.map((meow, index) => (
                                 <button
                                     key={index}

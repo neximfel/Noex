@@ -15,12 +15,12 @@ export default function Section7(){
 
     return(
         <>
-            <section className="section7">
-                <div className="section7_inside">
+            <section className="page1_section7">
+                <div className="page1_section7_inside">
                     <h1>ВЫСОКИЙ УРОВЕНЬ И ПРОФЕССИОНАЛЬНАЯ КОМАНДА</h1>
-                    <div className="section7_inside_bottom">
+                    <div className="page1_section7_inside_bottom">
                         <p className="p_question">Подтверждение наших компетенций в специализации</p>
-                        <div className="section7_inside_bottom_points">
+                        <div className="page1_section7_inside_bottom_points">
                             {points.map((meow) => (
                                 <div>
                                     <h2>{meow.title}</h2>

@@ -40,15 +40,15 @@ export default function Section4(){
 
     return(
         <>
-            <section className="section4">
-                <div className="section4_inside">
-                    <div className="section4_inside_top">
+            <section className="page1_section4">
+                <div className="page1_section4_inside">
+                    <div className="page1_section4_inside_top">
                         <h1>ВЫСОКОЕ КАЧЕСТВО РАБОТЫ В НАШИХ ПРОЕКТАХ</h1>
                         <span><p>Более</p><h1>6</h1><p>Крупных проектов</p></span>
                     </div>
-                    <div className="section4_inside_bottom">
-                        <div className="section4_inside_bottom_left">
-                            <div className="section4_inside_bottom_left_places">
+                    <div className="page1_section4_inside_bottom">
+                        <div className="page1_section4_inside_bottom_left">
+                            <div className="page1_section4_inside_bottom_left_places">
                                 {places.map((meow, index) => (
                                     <button
                                         key={index}
@@ -57,12 +57,12 @@ export default function Section4(){
                                     >{meow.place}</button>
                                 ))}
                             </div>
-                            <div className="section4_inside_bottom_left_arrows">
+                            <div className="page1_section4_inside_bottom_left_arrows">
                                 <button onClick={goPrev} id="left_arrow"><img src={Photo.ArrowToLeft} alt="" /></button>
                                 <button onClick={goNext} id="right_arrow"><img src={Photo.ArrowToRight} alt="" /></button>
                             </div>
                         </div>
-                        <div className="section4_inside_bottom_right">
+                        <div className="page1_section4_inside_bottom_right">
                                 <article>
                                     <img src={currentArt.image} alt="" onClick={() => toggleArticle(currentArt)}/>
                                     <h2>{currentArt.title}</h2>

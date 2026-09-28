@@ -1,0 +1,132 @@
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #0A090D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+
+
+.page2_def_section2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        &_years{
+            display: flex;
+            user-select: none;
+            gap: 40px;
+            button{
+                color: #848486;
+                padding: 10px 20px;
+                font-size: 1.125rem;
+            }
+            .current{
+                background-color: #1F1F1F;
+                color: #E5E5E5;
+                transform: scale(1.05);
+            }
+        }
+        &_places{
+            display: grid;
+            grid-template-columns: 1fr;
+            flex-direction: column;
+            gap: 60px;
+            article:last-child{
+                border: none;
+            }
+            article{
+                padding-bottom: 60px;
+                border-bottom: 2px solid #3B3A3D;
+                display: flex;
+                justify-content: space-between;
+                .p_year{
+                    max-width: 100px;
+                    width: 100%;
+                    color: #E5E5E5;
+                    font-size: 1.125rem;
+                }
+                .section2_article_right{
+                    max-width: 570px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        h2, p{
+                            position: relative;
+                            z-index: 1;
+                            user-select: text;
+                        }
+                        h2{
+                            color: #E5E5E5;
+                            font-size: 1.5rem;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            line-height: 1.4;
+                        }
+                        p{
+                            color: #E5E5E5;
+                            font-size: 1.125rem;
+                            line-height: 1.6;
+                            font-weight: lighter;
+                        }
+                    }
+                    a{
+                        display: flex;
+                        align-items: center;
+                        height: 36px;
+                        user-select: none;
+                        color: #DFD1A7;
+                        font-size: 0.875rem;
+                        text-decoration: underline;
+                        transition: all ease 0.3s;
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
+}

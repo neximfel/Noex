@@ -43,7 +43,7 @@ body{
 }
 
 
-.section6{
+.page1_section6{
     width: 100%;
     display: flex;
     align-items: center;
@@ -68,10 +68,13 @@ body{
             p{
                 padding: 40px 50px;
                 color: #E5E5E5;
-                font-weight: lighter;
+                font-weight: normal;
+                font-size: 1.25rem;
+                line-height: 1.4;
                 span{
                     color: #DFD1A7;
                     font-weight: bold;
+                    font-size: 1.25rem;
                 }
             }
         }
