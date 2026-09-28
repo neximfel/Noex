@@ -1,0 +1,15 @@
+.page3_sections_group1{
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    .page3_sections_group2{
+        display: flex;
+        flex-direction: column;
+        gap: 180px;
+        .page3_sections_group3{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+    }
+}

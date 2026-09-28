@@ -19,6 +19,10 @@ import LogoFooter from "./assets/Footer/logo.svg"
 import FacebookLogo from "./assets/Footer/facebook.svg"
 import VKLogo from "./assets/Footer/vk.svg"
 import InstagramLogo from "./assets/Footer/inst.svg"
+import Image1 from "./assets/Page3/Section2/image1.png"
+import Image2 from "./assets/Page3/Section2/image2.png"
+import Certificate from "./assets/Page3/Section6/certif.png"
+import ArrowDiagonal from "./assets/Page3/Section6/arrow_diagonal.svg"
 
 export const Photo = {
     Logo:Logo,
@@ -42,4 +46,8 @@ export const Photo = {
     FacebookLogo:FacebookLogo,
     VKLogo:VKLogo,
     InstagramLogo:InstagramLogo,
+    Image1:Image1,
+    Image2:Image2,
+    Certificate:Certificate,
+    ArrowDiagonal:ArrowDiagonal,
 }
