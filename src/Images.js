@@ -39,6 +39,10 @@ import OpePlace7 from "./assets/Page2/Page2Opened/Section2/place7.png"
 import OpePlace8 from "./assets/Page2/Page2Opened/Section2/place8.png"
 import OpePlace9 from "./assets/Page2/Page2Opened/Section2/place9.png"
 import OpePlace10 from "./assets/Page2/Page2Opened/Section2/place10.png"
+import BackgroundImage1 from "./assets/Page1/Section1/bg.png"
+import BackgroundImage2 from "./assets/Page1/Section1/bg2.png"
+import BackgroundImage3 from "./assets/Page1/Section1/bg3.png"
+import BackgroundImage4 from "./assets/Page1/Section1/bg4.png"
 
 export const Photo = {
     Logo:Logo,
@@ -82,4 +86,8 @@ export const Photo = {
     OpePlace8:OpePlace8,
     OpePlace9:OpePlace9,
     OpePlace10:OpePlace10,
+    BackgroundImage1:BackgroundImage1,
+    BackgroundImage2:BackgroundImage2,
+    BackgroundImage3:BackgroundImage3,
+    BackgroundImage4:BackgroundImage4,
 }

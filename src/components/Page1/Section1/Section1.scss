@@ -41,6 +41,45 @@ body{
     gap: 150px;
 }
 
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.slide2{
+    .page1_section1{
+        background-image: url(../../../assets/Page1/Section1/bg2.png);
+    }
+}
+.slide3{
+    .page1_section1{
+        background-image: url(../../../assets/Page1/Section1/bg3.png);
+    }
+}
+.slide4{
+    .page1_section1{
+        background-image: url(../../../assets/Page1/Section1/bg4.png);
+    }
+}
+
+
 .page1_section1{
     margin: 0 auto;
     max-width: 1920px;
